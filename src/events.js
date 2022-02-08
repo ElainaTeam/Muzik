@@ -20,7 +20,7 @@ player.on('botDisconnect', (queue) => {
 });
 
 player.on('channelEmpty', (queue) => {
-    queue.metadata.send('Nobody is in the voice channel, leaving the voice channel... ❌');
+    queue.metadata.send('Nobody is in the voice channel, leaving the voice channel.. ❌');
 });
 
 player.on('queueEnd', (queue) => {
